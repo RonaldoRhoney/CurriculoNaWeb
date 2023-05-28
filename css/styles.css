@@ -91,8 +91,28 @@
   }
 }
 
+.whatsapp-link {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  bottom: 35px;
+  right: 35px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 45px;
+  text-align: center;
+  font-size: 25px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+
+.fa-whatsapp {
+  margin-top: 16px;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
